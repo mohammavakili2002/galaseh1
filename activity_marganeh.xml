@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/mara5"
+    tools:context="com.example.kingswolf.marganehActivity">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+ <LinearLayout
+     android:layout_width="match_parent"
+     android:layout_height="match_parent">
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            tools:ignore="ExtraText">
+            <Button
+                android:id="@+id/back"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="برگشت"/>
+
+
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="کویر مرنجاب آران و بیدگل"
+                android:textColor="#000"
+                android:layout_marginEnd="8dp"
+                android:layout_alignParentEnd="true"
+                android:layout_marginTop="7dp"
+                android:textSize="21dp"
+
+            />
+
+            <ImageView
+                android:layout_marginTop="90dp"
+                android:layout_width="150dp"
+                android:layout_height="90dp"
+                android:scaleType="fitXY"
+                android:src="@drawable/mara1" />
+            <ImageView
+                android:layout_marginTop="130dp"
+                android:layout_width="150dp"
+                android:layout_height="90dp"
+                android:layout_alignParentEnd="true"
+                android:scaleType="fitXY"
+                android:src="@drawable/mara2"
+                />
+
+            <ImageView
+                android:layout_marginTop="190dp"
+                android:layout_width="150dp"
+                android:layout_height="90dp"
+                android:scaleType="fitXY"
+                android:src="@drawable/mara3" />
+            <ImageView
+                android:layout_marginTop="240dp"
+                android:layout_width="150dp"
+                android:layout_height="90dp"
+                android:layout_alignParentEnd="true"
+                android:scaleType="fitXY"
+                android:src="@drawable/mara4"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="340dp"
+                android:gravity="center_vertical"
+                android:padding="10dp"
+                android:text="توضیحی کوچک :"
+           android:layout_alignParentEnd="true"
+                android:textColor="#000"
+                android:textSize="20dp" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="370dp"
+                android:gravity="center_vertical"
+                android:text="   کویر مرنجاب آران و بیدگل در شمال شهرستان آران و بیدگل در استان اصفهان قرار دارد. این کویر از شمال به دریاچه نمک آران و بیدگل، از غرب به کویر مسیله و دریاچه‌های نمک حوض سلطان و حوض مره، از شرق به کویر بند ریگ و پارک ملی کویر و از جنوب به شهرستان آران و بیدگل محدود می‌شود.
+
+
+
+ارتفاع متوسط کویر مرنجاب از سطح آبهای آزاد در حدود ۸۵۰ متر می‌باشد. امنیت، اعتدال نسبی، تنوع جاذبه‌های گردشگری، تنوع گونه‌های جانوری و پوشش گیاهی مناطق کویری فضای مناسبی را جهت گردشگری و سرمایه‌گذاری در این منطقه فراهم نموده‌است و گردشگران بسیاری را به این منطقه می‌کشاند."
+                android:textAlignment="textStart"
+                android:textColor="#000"
+                android:textSize="20dp"
+                android:padding="10dp"/>
+            <Button
+                android:layout_marginTop="880dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="مطلب مرتبط"
+                android:id="@+id/fele"/>
+
+
+        </RelativeLayout>
+
+
+
+
+ </LinearLayout>
+    </ScrollView>
+</LinearLayout>
+

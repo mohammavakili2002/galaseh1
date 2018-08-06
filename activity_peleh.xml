@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/chesh8"
+    tools:context="com.example.kingswolf.pelehActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                tools:ignore="ExtraText">
+                <Button
+                    android:id="@+id/fdfd2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="برگشت"/>
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentEnd="true"
+                    android:layout_marginEnd="8dp"
+                    android:layout_marginTop="7dp"
+                    android:text="چشمه های پلکانی "
+                    android:textColor="#000"
+                    android:textSize="21dp"
+
+                    android:textStyle="bold" />
+
+                <ImageView
+                    android:layout_marginTop="90dp"
+                    android:layout_width="150dp"
+                    android:layout_height="90dp"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/ches1" />
+                <ImageView
+                    android:layout_marginTop="130dp"
+                    android:layout_width="150dp"
+                    android:layout_height="90dp"
+                    android:layout_alignParentEnd="true"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/ches2"
+                    />
+
+                <ImageView
+                    android:layout_marginTop="190dp"
+                    android:layout_width="150dp"
+                    android:layout_height="90dp"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/ches3" />
+                <ImageView
+                    android:layout_marginTop="240dp"
+                    android:layout_width="150dp"
+                    android:layout_height="90dp"
+                    android:layout_alignParentEnd="true"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/ches4"
+                    />
+                <ImageView
+                    android:layout_marginTop="290dp"
+                    android:layout_width="150dp"
+                    android:layout_height="90dp"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/chsh6" />
+                <ImageView
+                    android:layout_marginTop="335dp"
+                    android:layout_width="150dp"
+                    android:layout_height="90dp"
+                    android:layout_alignParentEnd="true"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/ches5"
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentEnd="true"
+                    android:layout_marginTop="420dp"
+                    android:gravity="center_vertical"
+                    android:padding="10dp"
+                    android:text="توضیحی کوچک :"
+                    android:textColor="#000"
+                    android:textSize="20dp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="444dp"
+                    android:gravity="center_vertical"
+                    android:padding="10dp"
+                    android:text="در منطقه ای از استان گلستان به نام ترکن صحرا یک تابلوی بی انتها از تپه های سرسبز وجود دارد که ترکمن های ایران در آن ساکن هستند. این منطقه جاذبه های قابل توجهی را در خود جای داده است که از میان آنها می توان به قبرستان مرموز خالد نبی با نشانه هایی عجیب و غریب و گنبد قابوس، برج قرمز قرن نوزدهم و میراث جهانی یونسکو اشاره نمود. گنبد قابوس  نمونه ای برجسته ای از طراحی اسلامی بر مبنای فرمول های هندسی محسوب می شود و الگویی برای بناهای آرامگاهی در سراسر ایران، آناتولی و آسیای مرکزی بوده است."
+                    android:textAlignment="textStart"
+                    android:textColor="#000"
+                    android:textSize="20dp"
+                    android:textStyle="bold" />
+                <Button
+                    android:layout_marginTop="980dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="مطلب مرتبط"
+                    android:id="@+id/efsdsd"/>
+
+
+            </RelativeLayout>
+
+
+
+
+        </LinearLayout>
+    </ScrollView>
+</android.support.constraint.ConstraintLayout>

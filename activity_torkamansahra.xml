@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/tor2"
+    tools:context="com.example.kingswolf.torkamansahraActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                tools:ignore="ExtraText">
+                <Button
+                    android:id="@+id/dsff"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="برگشت"/>
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentEnd="true"
+                    android:layout_marginEnd="8dp"
+                    android:layout_marginTop="7dp"
+                    android:text="  ترکمن صحرا"
+                    android:textColor="#000"
+                    android:textSize="21dp"
+
+                    android:textStyle="bold" />
+
+                <ImageView
+                    android:layout_marginTop="90dp"
+                    android:layout_width="150dp"
+                    android:layout_height="90dp"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/tor1" />
+                <ImageView
+                    android:layout_marginTop="130dp"
+                    android:layout_width="150dp"
+                    android:layout_height="90dp"
+                    android:layout_alignParentEnd="true"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/tor3"
+                    />
+
+                <ImageView
+                    android:layout_marginTop="190dp"
+                    android:layout_width="150dp"
+                    android:layout_height="90dp"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/tor7" />
+                <ImageView
+                    android:layout_marginTop="240dp"
+                    android:layout_width="150dp"
+                    android:layout_height="90dp"
+                    android:layout_alignParentEnd="true"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/tor4"
+                    />
+                <ImageView
+                    android:layout_marginTop="290dp"
+                    android:layout_width="150dp"
+                    android:layout_height="90dp"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/tor6" />
+                <ImageView
+                    android:layout_marginTop="335dp"
+                    android:layout_width="150dp"
+                    android:layout_height="90dp"
+                    android:layout_alignParentEnd="true"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/tor5"
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentEnd="true"
+                    android:layout_marginTop="420dp"
+                    android:gravity="center_vertical"
+                    android:padding="10dp"
+                    android:text="توضیحی کوچک :"
+                    android:textColor="#000"
+                    android:textSize="20dp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="444dp"
+                    android:gravity="center_vertical"
+                    android:padding="10dp"
+                    android:text="در گوشه ای از استان مازندران در شمال ایران، چشم اندازی تماشایی از چشمه ای وجود دارد که شکل پلکانی آن زبانزد خاص و عام شده است. گویی که انباشت آهک ها بر روی یک دیگر باعث شده تا تراس هایی در طبیعت شکل بگیرند و آب از روی آنها جریان پیدا کند. این تشکیلات آهکی و پله ای طی هزاران سال توسط جریان آب از دو چشمه آب معدنی به وجود آمده و به یکی از دیدنی ترین نقاط این منطقه تبدیل شده است.
+
+از این دست چشمه ها در نقاط دیگری همچون ترکیه نیز دیده می شود اما وجه تمایز باداب سورت رنگ متفاوت آن آن است که از غلظت بالای رسوبات اکسید آهن ناشی می شود. وجود این ماده نه تنها باعث ایجاد چهره ای متفاوت برای این چشمه شده بلکه به دلیل شوری بالا و محتوای مواد معدنی، خواص درمانی نیز به آن بخشیده است."
+                    android:textAlignment="textStart"
+                    android:textColor="#000"
+                    android:textSize="20dp"
+                    android:textStyle="bold" />
+                <Button
+                    android:layout_marginTop="1030dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="مطلب مرتبط"
+                    android:id="@+id/lwda"/>
+
+
+            </RelativeLayout>
+
+
+
+
+        </LinearLayout>
+    </ScrollView>
+
+</android.support.constraint.ConstraintLayout>

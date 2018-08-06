@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@drawable/ab2"
+    android:layout_height="match_parent"
+    tools:context="com.example.kingswolf.absharActivity">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                tools:ignore="ExtraText">
+                <Button
+                    android:id="@+id/klfd"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="برگشت"/>
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentEnd="true"
+                    android:layout_marginEnd="8dp"
+                    android:layout_marginTop="7dp"
+                    android:text="آبشار مارگون"
+                    android:textColor="#000"
+                    android:textSize="21dp"
+
+                    android:textStyle="bold" />
+
+                <ImageView
+                    android:layout_marginTop="90dp"
+                    android:layout_width="150dp"
+                    android:layout_height="90dp"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/ab1" />
+                <ImageView
+                    android:layout_marginTop="130dp"
+                    android:layout_width="150dp"
+                    android:layout_height="90dp"
+                    android:layout_alignParentEnd="true"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/ab3"
+                    />
+
+                <ImageView
+                    android:layout_marginTop="190dp"
+                    android:layout_width="150dp"
+                    android:layout_height="90dp"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/ab4" />
+                <ImageView
+                    android:layout_marginTop="240dp"
+                    android:layout_width="150dp"
+                    android:layout_height="90dp"
+                    android:layout_alignParentEnd="true"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/ab5"
+                    />
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentEnd="true"
+                    android:layout_marginTop="354dp"
+                    android:gravity="center_vertical"
+                    android:padding="10dp"
+                    android:text="توضیحی کوچک :"
+                    android:textColor="#000"
+                    android:textSize="20dp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="384dp"
+                    android:gravity="center_vertical"
+                    android:padding="10dp"
+                    android:text="شیراز محل تولد و آرامگاه ابدی محبوب ترین شاعران ایران، حافظ و سعدی است اما کافیست کمی از شهر دور شوید تا به یکی از زیباترین جاذبه های طبیعی ایران به نام آبشار مارگون برسید. این آبشار درست مانند نامش که به معنای مانند مار است، به صورت مارپیچ از ارتفاعی حدود ۶۰ متر جریان دارد.
+
+این منطقه درای گیاهان و حیات وحش منحصر به فردی نیز هست و جاندارانی همچون عقاب، خرس، کفتار و گراز در آن زندگی می کنند. دانشمندان هشدار داده اند که گردشگری نامنظم موجب فرسایش این اکوسیستم ها شده و حفاظت بیشتر امری ضروری برای این منطقه به نظر می رسد"
+                    android:textAlignment="textStart"
+                    android:textColor="#000"
+                    android:textSize="20dp"
+                    android:textStyle="bold" />
+                <Button
+                    android:layout_marginTop="890dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="مطلب مرتبط"
+                    android:id="@+id/jlfds"/>
+
+
+            </RelativeLayout>
+
+
+
+
+        </LinearLayout>
+    </ScrollView>
+
+</android.support.constraint.ConstraintLayout>

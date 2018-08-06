@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/mini1"
+    tools:context="com.example.kingswolf.koohminiActivity">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                tools:ignore="ExtraText">
+                <Button
+                    android:id="@+id/bayedbargasht"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="برگشت"/>
+
+
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="کوه های مینیاتوری چابهار"
+                    android:textColor="#000"
+                    android:layout_marginEnd="8dp"
+                    android:layout_alignParentEnd="true"
+                    android:layout_marginTop="7dp"
+                    android:textSize="21dp"
+
+                    />
+
+                <ImageView
+                    android:layout_marginTop="70dp"
+                    android:layout_width="150dp"
+                    android:layout_height="90dp"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/mini6"
+                    />
+                <ImageView
+                    android:layout_marginTop="130dp"
+                    android:layout_width="150dp"
+                    android:layout_height="90dp"
+                    android:layout_alignParentEnd="true"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/mini2"
+                    />
+
+                <ImageView
+                    android:layout_marginTop="170dp"
+                    android:layout_width="150dp"
+                    android:layout_height="90dp"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/mini3" />
+                <ImageView
+                    android:layout_marginTop="270dp"
+                    android:layout_width="150dp"
+                    android:layout_height="90dp"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/mini5" />
+                <ImageView
+                    android:layout_marginTop="240dp"
+                    android:layout_width="150dp"
+                    android:layout_height="90dp"
+                    android:layout_alignParentEnd="true"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/mini4"
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentEnd="true"
+                    android:layout_marginTop="340dp"
+                    android:gravity="center_vertical"
+                    android:padding="10dp"
+                    android:text="توضیحی کوچک :"
+                    android:textColor="#000"
+                    android:textSize="20dp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="370dp"
+                    android:gravity="center_vertical"
+                    android:padding="10dp"
+                    android:text="کوه‌های مینیاتوری چابهار یا کوه‌های مریخی چابهار نام کوه‌هایی با ساختار و شکل ویژه در فاصله ۴۰ تا ۵۰ کیلومتری بعد از شهر چابهار، در مسیر گواتِر در سمت چپ جاده است که به دلیل نوع و وضعیت فرسایش و گونهٔ رسوبی خاص، اشکالی شبیه به ناهمواری‌های سطح مریخ دارد. رسوبات آهکی بقایای بدن جانداران دریایی (سخت‌پوستان و ماهی‌ها) به همراه ماسه و خاک رس، مواد اصلی تشکیل‌دهندهٔ رسوبات این کوه‌ها است.
+    کوه‌های مریخی در چابهار
+کوه‌های مریخی (آریا، کالانی) رشته کوهی هستند که تقریباً از ۳۵ کیلومتری خاور چابهار آغاز می‌شوند و دهها کیلومتر به سمت شرق امتداد می‌یابند.
+
+این کوهها که شبیه به کوههای مریخی هستند و کمتر در جهان کوهی به این شکل وجود دارد بدبوم نامیده می‌شوند که عبارتند از زمینها و بلندی‌هایی که در برابر فرسایش بدین شکل درآمده‌اند."
+                    android:textAlignment="textStart"
+                    android:textColor="#000"
+                    android:textSize="20dp"
+                    android:textStyle="bold" />
+                <Button
+                    android:layout_marginTop="1020dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="مطلب مرتبط"
+                    android:id="@+id/peydaertebatgfdfs"/>
+
+
+            </RelativeLayout>
+
+
+
+
+        </LinearLayout>
+    </ScrollView>
+</android.support.constraint.ConstraintLayout>
