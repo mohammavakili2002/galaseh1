@@ -1,0 +1,126 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/dama3"
+    tools:context="com.example.kingswolf.Main3Activity">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                tools:ignore="ExtraText">
+                <Button
+                    android:id="@+id/bargashtdorost"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="برگشت"/>
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentEnd="true"
+                    android:layout_marginEnd="8dp"
+                    android:layout_marginTop="7dp"
+                    android:text="دماوند"
+                    android:textColor="#000"
+                    android:textSize="27dp"
+
+                    android:textStyle="bold" />
+
+                <ImageView
+                    android:layout_marginTop="80dp"
+                    android:layout_width="150dp"
+                    android:layout_height="90dp"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/dama1" />
+                <ImageView
+                    android:layout_marginTop="80dp"
+                    android:layout_width="150dp"
+                    android:layout_height="90dp"
+                    android:layout_alignParentEnd="true"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/dama2"
+                    />
+
+                <ImageView
+                    android:layout_marginTop="180dp"
+                    android:layout_width="150dp"
+                    android:layout_height="90dp"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/dama7" />
+                <ImageView
+                    android:layout_marginTop="280dp"
+                    android:layout_width="150dp"
+                    android:layout_height="90dp"
+                    android:layout_alignParentEnd="true"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/dama4"
+                    />
+                <ImageView
+                    android:layout_marginTop="180dp"
+                    android:layout_width="150dp"
+                    android:layout_height="90dp"
+                    android:layout_alignParentEnd="true"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/dama5"
+                    />
+                <ImageView
+                    android:layout_marginTop="280dp"
+                    android:layout_width="150dp"
+                    android:layout_height="90dp"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/dama6" />
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentEnd="true"
+                    android:layout_marginTop="382dp"
+                    android:gravity="center_vertical"
+                    android:padding="10dp"
+                    android:text="توضیحی کوچک :"
+                    android:textColor="#000"
+                    android:textSize="20dp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="410dp"
+                    android:gravity="center_vertical"
+                    android:padding="10dp"
+                    android:text="
+دَماوَند کوهی در شمال ایران است که بلندترین کوه ایران و بلندترین آتشفشان آسیا و خاورمیانه است. دماوند در پاره مرکزی رشته‌کوه البرزدر جنوب دریای مازندران جای دارد. این کوه از دیدگاه تقسیمات کشوری، در بخش لاریجان شهرستان آمل در استان مازندران قرار دارد. به هنگام صاف و آفتابی بودن هوا، از شهرهای تهران، ورامین، قم و همچنین کرانه‌های جنوبی دریای خزر قابل رؤیت است. کوه دماوند در سیزدهم تیرماه سال ۱۳۸۷ به عنوان نخستین اثر طبیعی ایران در فهرست آثار ملّی ایران ثبت شد. همچنین کوه دماوند از سال ۱۳۸۱ به عنوان «اثر طبیعی ملّی» در شمار مناطق چهارگانهٔ ارزشمند از نظر حفاظت محیط زیست قرار گرفته‌است.
+"
+                    android:textAlignment="textStart"
+                    android:textColor="#000"
+                    android:textSize="20dp"
+                    android:textStyle="bold" />
+                <Button
+                    android:layout_marginTop="920dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="مطلب مرتبط"
+                    android:id="@+id/rabetahbayadpeydakard"/>
+
+
+            </RelativeLayout>
+
+
+
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

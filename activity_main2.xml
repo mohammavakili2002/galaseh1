@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@drawable/ddd"
+    android:layout_height="match_parent"
+    tools:context="com.example.kingswolf.Main2Activity">
+   <ScrollView
+       android:layout_width="match_parent"
+       android:layout_height="match_parent">
+
+       <LinearLayout
+           android:layout_width="match_parent"
+           android:layout_height="match_parent">
+
+           <LinearLayout
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:orientation="vertical">
+
+               <RelativeLayout
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content">
+
+                   <Button
+                       android:id="@+id/back"
+                       android:layout_width="wrap_content"
+                       android:layout_height="wrap_content"
+                       android:text="برگشت"
+
+                       />
+               </RelativeLayout>
+
+               <TextView
+                   android:id="@+id/rrr"
+                   android:layout_width="match_parent"
+                   android:layout_height="wrap_content"
+                   android:fontFamily="bond"
+                   android:gravity="center"
+                   android:padding="40dp"
+                   android:textColor="#000"
+                   android:textSize="20dp" />
+
+               <ImageButton
+                   android:id="@+id/margan"
+                   android:layout_width="match_parent"
+                   android:layout_height="160dp"
+                   android:layout_marginEnd="20dp"
+                   android:layout_marginStart="20dp"
+                   android:scaleType="fitXY"
+                   android:src="@drawable/mar" />
+
+               <TextView
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:layout_gravity="center"
+                   android:text="کویر مرنجاب"
+                   android:textColor="#000"
+                   android:textSize="20dp"
+                   android:textStyle="bold" />
+
+               <ImageButton
+                   android:layout_width="match_parent"
+                   android:layout_height="160dp"
+                   android:layout_marginEnd="20dp"
+                   android:layout_marginStart="20dp"
+                   android:layout_marginTop="10dp"
+                   android:scaleType="fitXY"
+                   android:src="@drawable/chabahar"
+                   android:id="@+id/meeneya"/>
+
+               <TextView
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:layout_gravity="center"
+                   android:text="کوه های مینیاتوری"
+                   android:textColor="#000"
+                   android:textSize="20dp"
+                   android:textStyle="bold" />
+
+               <ImageButton
+                   android:layout_width="match_parent"
+                   android:layout_height="160dp"
+                   android:layout_marginEnd="20dp"
+                   android:layout_marginStart="20dp"
+                   android:layout_marginTop="10dp"
+                   android:scaleType="fitXY"
+                   android:src="@drawable/dama"
+                   android:id="@+id/cheshm"/>
+
+               <TextView
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:layout_gravity="center"
+                   android:text="چشمه های پلکانی"
+                   android:textColor="#000"
+                   android:textSize="20dp"
+                   android:textStyle="bold" />
+
+               <ImageButton
+                   android:layout_width="match_parent"
+                   android:layout_height="160dp"
+                   android:layout_marginEnd="20dp"
+                   android:layout_marginStart="20dp"
+                   android:layout_marginTop="10dp"
+                   android:scaleType="fitXY"
+                   android:src="@drawable/damavandrt"
+                   android:id="@+id/damavandrrrjgukyf"/>
+
+               <TextView
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:layout_gravity="center"
+                   android:text="دماوند"
+                   android:textColor="#000"
+                   android:textSize="20dp"
+                   android:textStyle="bold" />
+
+               <ImageButton
+                   android:layout_width="match_parent"
+                   android:layout_height="160dp"
+                   android:layout_marginEnd="20dp"
+                   android:layout_marginStart="20dp"
+                   android:layout_marginTop="10dp"
+                   android:scaleType="fitXY"
+                   android:src="@drawable/torkaman"
+                   android:id="@+id/torkaman"/>
+
+               <TextView
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:layout_gravity="center"
+                   android:text="ترکمن صحرا"
+                   android:textColor="#000"
+                   android:textSize="20dp"
+                   android:textStyle="bold" />
+
+               <ImageButton
+                   android:layout_width="match_parent"
+                   android:layout_height="160dp"
+                   android:layout_marginEnd="20dp"
+                   android:layout_marginStart="20dp"
+                   android:layout_marginTop="10dp"
+                   android:scaleType="fitXY"
+                   android:src="@drawable/abshar"
+                   android:id="@+id/abshar1"/>
+
+               <TextView
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:layout_gravity="center"
+                   android:text="ابشار مارگون"
+                   android:textColor="#000"
+                   android:textSize="20dp"
+                   android:textStyle="bold" />
+               <TextView
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:layout_gravity="center"
+                   android:text="        "
+                   android:textColor="#000"
+                   android:textSize="20dp"
+                 />
+           </LinearLayout>
+
+
+       </LinearLayout>
+
+   </ScrollView>
+</android.support.constraint.ConstraintLayout>
